@@ -1,0 +1,37 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta según sea necesario */
+}
+
+.loading-icon {
+    animation: rotate 2s linear infinite;
+}
+
+.loading-circle {
+    stroke-dasharray: 240; /* Ajuste para la circunferencia de r=40 */
+    stroke-dashoffset: 180; /* Ajuste para la circunferencia de r=40 */
+    animation: dash 1.5s ease-in-out infinite;
+    transform-origin: center;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 180; /* Ajuste para la circunferencia de r=40 */
+    }
+    50% {
+        stroke-dashoffset: 60; /* Ajuste para la circunferencia de r=40 */
+        transform: rotate(135deg); /* Ajuste para la circunferencia de r=40 */
+    }
+    100% {
+        stroke-dashoffset: 180; /* Ajuste para la circunferencia de r=40 */
+        transform: rotate(450deg); /* Ajuste para la circunferencia de r=40 */
+    }
+}
