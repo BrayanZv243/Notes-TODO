@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-// Configuración global de rutas
+// Global config routes
 app.use(require("./routes/index"));
 
 // Handle sequelize errors Middleware

@@ -1,4 +1,4 @@
-const initModels = require("../migrations/init-models"); // Ajusta la ruta al archivo init-models.js
+const initModels = require("../migrations/init-models");
 const { sequelize } = require("../migrations");
 const models = initModels(sequelize);
 const Note = models.note;

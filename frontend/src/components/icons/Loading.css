@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ajusta según sea necesario */
+    height: 100vh;
 }
 
 .loading-icon {
@@ -10,8 +10,8 @@
 }
 
 .loading-circle {
-    stroke-dasharray: 240; /* Ajuste para la circunferencia de r=40 */
-    stroke-dashoffset: 180; /* Ajuste para la circunferencia de r=40 */
+    stroke-dasharray: 240;
+    stroke-dashoffset: 180;
     animation: dash 1.5s ease-in-out infinite;
     transform-origin: center;
 }
@@ -24,14 +24,14 @@
 
 @keyframes dash {
     0% {
-        stroke-dashoffset: 180; /* Ajuste para la circunferencia de r=40 */
+        stroke-dashoffset: 180;
     }
     50% {
-        stroke-dashoffset: 60; /* Ajuste para la circunferencia de r=40 */
-        transform: rotate(135deg); /* Ajuste para la circunferencia de r=40 */
+        stroke-dashoffset: 60;
+        transform: rotate(135deg);
     }
     100% {
-        stroke-dashoffset: 180; /* Ajuste para la circunferencia de r=40 */
-        transform: rotate(450deg); /* Ajuste para la circunferencia de r=40 */
+        stroke-dashoffset: 180;
+        transform: rotate(450deg);
     }
 }
