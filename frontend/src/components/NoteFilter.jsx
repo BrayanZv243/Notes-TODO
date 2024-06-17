@@ -1,7 +1,7 @@
 const NoteFilter = ({ changeFilter, filter }) => {
     return (
         <section className="container mx-auto">
-            <div className="mt-8 flex justify-center gap-4 rounded-md bg-white p-4 transition-all duration-500 dark:bg-gray-800">
+            <div className="mt-8 flex justify-center gap-4 rounded-md bg-white p-4 transition-all duration-1000 dark:bg-gray-800">
                 <button
                     className={`${
                         filter === "all"
