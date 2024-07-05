@@ -1,6 +1,4 @@
-Hello Ensolvers! I am Brayan Zavala.
-
-This challenge has been quite difficult but it was finally achieved!
+I am Brayan Zavala.
 Below you will find all the information you need to know about this notes app.
 
 Before running either project make sure to use the "npm install" command to get all the package.json dependencies.
@@ -20,5 +18,4 @@ Also included is an sh file that starts both backend and frontend projects in a 
 "setup-project-ubuntu.sh"
 This script is designed to streamline the setup process for a development environment containing MySQL, a backend (presumably Node.js-based), and a frontend (likely using React with Vite). It ensures MySQL is installed and configured, sets up the backend and frontend environments, and starts both applications automatically for development purposes.
 
-The full stack application is deployed on AWS EC2 with the following address:
-http://18.217.6.15/
+The full stack application was deployed on AWS EC2 as well.
